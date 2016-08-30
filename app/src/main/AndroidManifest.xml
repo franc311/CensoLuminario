@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.franzhezco.censoluminario">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".VentanaPrincipalActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".CensoActivity"
+            android:label="@string/title_activity_censo"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".CensoNuevoActivty" />
+        <activity
+            android:name=".PuntoListActivity"
+            android:label="@string/title_punto_list"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
+        <activity
+            android:name=".PuntoDetailActivity"
+            android:label="@string/title_punto_detail"
+            android:parentActivityName=".PuntoListActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.franzhezco.censoluminario.PuntoListActivity" />
+        </activity>
+    </application>
+
+</manifest>

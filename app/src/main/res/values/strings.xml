@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">CensoLuminario</string>
+
+    <!-- Ventana principal -->
+    <string name="button1_string">Registro de Censos</string>
+    <string name="button2_string">Configuraciones</string>
+    <string name="title_activity_censo">CensoActivity</string>
+    <string name="title_activity_main">MainActivity</string>
+
+    <!-- CensoNuevo -->
+    <string name="censo_nuevo_welcome_string">Nuevo Censo</string>
+    <string name="censo_nuevo_string1">Nombre:</string>
+    <string name="censo_nuevo_button1_string">Aceptar</string>
+    <string name="censo_nuevo_button2_string">Cancelar</string>
+    <string name="title_punto_list">Puntos</string>
+    <string name="title_punto_detail">Punto Detail</string>
+</resources>
